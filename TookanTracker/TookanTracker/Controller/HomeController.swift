@@ -1157,10 +1157,14 @@ class HomeController: UIViewController, LocationTrackerDelegate {
                 self.jobData?.jobStatus = id.jobStatus
                 if self.jobData?.fleetID != id.fleetID{
                     self.trackingDelegate.logout?()
-                    TookanTracker.shared.createSession(userID: id.userID, isUINeeded: true, navigationController: self.navigationController!)
+                    TookanTracker.shared.createSession(userID: id.userID, isUINeeded: true, completionHandler: { (view) in
+                        self.navigationController?.pushViewController(view, animated: true)
+                    })
                     TookanTracker.shared.startTarckingByJob(sharedSecertId: "tookan-sdk-345#!@", jobId: id.jobId, userId: id.userID)
                 }else{
-                     TookanTracker.shared.createSession(userID: id.userID, isUINeeded: false, navigationController: self.navigationController!)
+                     TookanTracker.shared.createSession(userID: id.userID, isUINeeded: false, completionHandler: { (view) in
+                         self.navigationController?.pushViewController(view, animated: true)
+                     })
                     TookanTracker.shared.startTarckingByJob(sharedSecertId: "tookan-sdk-345#!@", jobId: id.jobId, userId: id.userID)
                 }
 

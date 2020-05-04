@@ -37,19 +37,19 @@ public class TookanTracker: NSObject, CLLocationManagerDelegate {
     var uiNeeded = false
     var jobID = ""
     var isHideUserDetailOnTop = false
-   // var completionHandler: ((_ viewC: UIViewController)->())?
+   var completionHandler: ((_ viewC: UIViewController)->())?
     //completionHandler: ((_ mapViewController: UIViewController)->())?
     
-    public func createSession(userID:String,isUINeeded:Bool, navigationController:UINavigationController, isHideUserDetailOnTop: Bool = true) {
+    public func createSession(userID:String,isUINeeded:Bool, isHideUserDetailOnTop: Bool = true, completionHandler: ((_ mapViewController: UIViewController)->())?) {
         locationManager = CLLocationManager()
         locationManager.delegate = self
         locationManager.requestAlwaysAuthorization()
         self.uiNeeded = isUINeeded
         globalUserId = userID
-     //   self.completionHandler =  completionHandler
+       self.completionHandler =  completionHandler
 
 //        globalAPIKey = apiKey
-        self.merchantNavigationController = navigationController
+ //       self.merchantNavigationController = navigationController
 //        UserDefaults.standard.set(apiKey, forKey: USER_DEFAULT.apiKey)
         UserDefaults.standard.set(userID, forKey: USER_DEFAULT.userId)
         self.isHideUserDetailOnTop = isHideUserDetailOnTop
@@ -180,10 +180,10 @@ public class TookanTracker: NSObject, CLLocationManagerDelegate {
                 }
             }
             home.isHideTopUserDetailView = isHideUserDetailOnTop
-//            if let completion = self.completionHandler {
-//                completion(home)
-//            }
-           self.merchantNavigationController?.pushViewController(home, animated: true)
+            if let completion = self.completionHandler {
+                completion(home)
+            }
+        //   self.merchantNavigationController?.pushViewController(home, animated: true)
         }
     }
     
