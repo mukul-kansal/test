@@ -36,16 +36,23 @@ public class TookanTracker: NSObject, CLLocationManagerDelegate {
     var locationManager:CLLocationManager!
     var uiNeeded = false
     var jobID = ""
-    public func createSession(userID:String,isUINeeded:Bool, navigationController:UINavigationController) {
+    var isHideUserDetailOnTop = false
+   // var completionHandler: ((_ viewC: UIViewController)->())?
+    //completionHandler: ((_ mapViewController: UIViewController)->())?
+    
+    public func createSession(userID:String,isUINeeded:Bool, navigationController:UINavigationController, isHideUserDetailOnTop: Bool = true) {
         locationManager = CLLocationManager()
         locationManager.delegate = self
         locationManager.requestAlwaysAuthorization()
         self.uiNeeded = isUINeeded
         globalUserId = userID
+     //   self.completionHandler =  completionHandler
+
 //        globalAPIKey = apiKey
         self.merchantNavigationController = navigationController
 //        UserDefaults.standard.set(apiKey, forKey: USER_DEFAULT.apiKey)
         UserDefaults.standard.set(userID, forKey: USER_DEFAULT.userId)
+        self.isHideUserDetailOnTop = isHideUserDetailOnTop
         self.loc.trackingDelegate = self
     }
     
@@ -172,7 +179,11 @@ public class TookanTracker: NSObject, CLLocationManagerDelegate {
                     self.getETA = eta
                 }
             }
-            self.merchantNavigationController?.pushViewController(home, animated: true)
+            home.isHideTopUserDetailView = isHideUserDetailOnTop
+//            if let completion = self.completionHandler {
+//                completion(home)
+//            }
+           self.merchantNavigationController?.pushViewController(home, animated: true)
         }
     }
     

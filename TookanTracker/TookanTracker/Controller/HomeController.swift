@@ -13,6 +13,7 @@ import GooglePlaces
 
 class HomeController: UIViewController, LocationTrackerDelegate {
     
+    @IBOutlet weak var googleMapTopConstraint: NSLayoutConstraint!
     @IBOutlet var callButton: UIButton!
     @IBOutlet var licenceNumber: UILabel!
     @IBOutlet var driverName: UILabel!
@@ -56,6 +57,7 @@ class HomeController: UIViewController, LocationTrackerDelegate {
     var polylineArray = [GMSPolyline]()
     var markers = [GMSMarker]()
     var mapPolyline = GMSPolyline()
+    var isHideTopUserDetailView = false
     override var preferredStatusBarStyle:UIStatusBarStyle {
         if #available(iOS 13.0, *) {
             return .darkContent
@@ -69,7 +71,10 @@ class HomeController: UIViewController, LocationTrackerDelegate {
         /*----------------- Location Tracker --------------*/
         self.viewETA.isHidden = true
         self.selectionView.isHidden = false
-
+        if isHideTopUserDetailView {
+            self.detailView.isHidden = true
+            self.googleMapTopConstraint.constant = 0
+        }
         
         self.loc.delegate = self
 
@@ -1152,7 +1157,7 @@ class HomeController: UIViewController, LocationTrackerDelegate {
                 self.jobData?.jobStatus = id.jobStatus
                 if self.jobData?.fleetID != id.fleetID{
                     self.trackingDelegate.logout?()
-                    TookanTracker.shared.createSession(userID: id.userID, isUINeeded: false, navigationController: self.navigationController!)
+                    TookanTracker.shared.createSession(userID: id.userID, isUINeeded: true, navigationController: self.navigationController!)
                     TookanTracker.shared.startTarckingByJob(sharedSecertId: "tookan-sdk-345#!@", jobId: id.jobId, userId: id.userID)
                 }else{
                      TookanTracker.shared.createSession(userID: id.userID, isUINeeded: false, navigationController: self.navigationController!)
