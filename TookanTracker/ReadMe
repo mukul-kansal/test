@@ -31,13 +31,17 @@ Note:-
 if you don't want to use google api hit for ETA and path, then use trackerOptions.setPathUpdateTimer(-1)
 By default path update timer is 1 minute.
 // Setting up the SDK
-TookanTracker.shared.createSession(userID: "Provide Tookan Dashboard User ID",isUINeeded: false, navigationController: self.navigationController!,isHideUserDetailOnTop: false)
+TookanTracker.shared.createSession(userID: "Provide Tookan Dashboard User ID", isUINeeded: false, completionHandler: { (viewC) in
+    self.navigationController?.pushViewController(viewC, animated: true)
+})
 
-// To Unhide top view set isHideUserDetailOnTop to false
+// To Unhide User Detail view set isHideUserDetailOnTop to false
 //isHideUserDetailOnTop = false
 
 // By default it is true
-TookanTracker.shared.createSession(userID: "Provide Tookan Dashboard User ID",isUINeeded: false, navigationController: self.navigationController!,isHideUserDetailOnTop: false)
+TookanTracker.shared.createSession(userID: "Provide Tookan Dashboard User ID",isUINeeded: false, isHideUserDetailOnTop: false, completionHandler: { (viewC) in
+    self.navigationController?.pushViewController(viewC, animated: true)
+})
 
  // use to create session.
 TookanTracker.shared.startTarckingByJob(sharedSecertId: "tookan-sdk-345#!@", jobId: "Provide Tookan Dashboard JOB ID", userId: "Provide Tookan Dashboard User ID")
