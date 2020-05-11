@@ -1,0 +1,411 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Jobs"
+provides-nominal:
+- "13TookanTracker4JobsC"
+provides-member:
+- ["13TookanTracker4JobsC", ""]
+provides-dynamic-lookup:
+- "fleetID"
+- "fleetImage"
+- "fleetLatitude"
+- "fleetName"
+- "fleetPhone"
+- "fleetStatus"
+- "fleetThumbImage"
+- "fleetlongitude"
+- "jobAddress"
+- "jobHash"
+- "jobId"
+- "jobLat"
+- "jobLng"
+- "jobPickupAddress"
+- "jobPickupLat"
+- "jobPickupLng"
+- "jobStatus"
+- "jobType"
+- "licenseNumber"
+- "userID"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Jobs"
+- !private "NSNumber"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+- !private "print"
+depends-member:
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "fleetID"]
+- !private ["s7CVarArgP", "fleetImage"]
+- !private ["s7CVarArgP", "fleetLatitude"]
+- !private ["s7CVarArgP", "fleetName"]
+- !private ["s7CVarArgP", "fleetPhone"]
+- !private ["s7CVarArgP", "fleetStatus"]
+- !private ["s7CVarArgP", "fleetThumbImage"]
+- !private ["s7CVarArgP", "fleetlongitude"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jobAddress"]
+- !private ["s7CVarArgP", "jobHash"]
+- !private ["s7CVarArgP", "jobId"]
+- !private ["s7CVarArgP", "jobLat"]
+- !private ["s7CVarArgP", "jobLng"]
+- !private ["s7CVarArgP", "jobPickupAddress"]
+- !private ["s7CVarArgP", "jobPickupLat"]
+- !private ["s7CVarArgP", "jobPickupLng"]
+- !private ["s7CVarArgP", "jobStatus"]
+- !private ["s7CVarArgP", "jobType"]
+- !private ["s7CVarArgP", "licenseNumber"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "userID"]
+- !private ["Sl", "subscript"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "fleetID"]
+- !private ["s28CustomDebugStringConvertibleP", "fleetImage"]
+- !private ["s28CustomDebugStringConvertibleP", "fleetLatitude"]
+- !private ["s28CustomDebugStringConvertibleP", "fleetName"]
+- !private ["s28CustomDebugStringConvertibleP", "fleetPhone"]
+- !private ["s28CustomDebugStringConvertibleP", "fleetStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "fleetThumbImage"]
+- !private ["s28CustomDebugStringConvertibleP", "fleetlongitude"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jobAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "jobHash"]
+- !private ["s28CustomDebugStringConvertibleP", "jobId"]
+- !private ["s28CustomDebugStringConvertibleP", "jobLat"]
+- !private ["s28CustomDebugStringConvertibleP", "jobLng"]
+- !private ["s28CustomDebugStringConvertibleP", "jobPickupAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "jobPickupLat"]
+- !private ["s28CustomDebugStringConvertibleP", "jobPickupLng"]
+- !private ["s28CustomDebugStringConvertibleP", "jobStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "jobType"]
+- !private ["s28CustomDebugStringConvertibleP", "licenseNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "userID"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "fleetID"]
+- !private ["s23CustomStringConvertibleP", "fleetImage"]
+- !private ["s23CustomStringConvertibleP", "fleetLatitude"]
+- !private ["s23CustomStringConvertibleP", "fleetName"]
+- !private ["s23CustomStringConvertibleP", "fleetPhone"]
+- !private ["s23CustomStringConvertibleP", "fleetStatus"]
+- !private ["s23CustomStringConvertibleP", "fleetThumbImage"]
+- !private ["s23CustomStringConvertibleP", "fleetlongitude"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jobAddress"]
+- !private ["s23CustomStringConvertibleP", "jobHash"]
+- !private ["s23CustomStringConvertibleP", "jobId"]
+- !private ["s23CustomStringConvertibleP", "jobLat"]
+- !private ["s23CustomStringConvertibleP", "jobLng"]
+- !private ["s23CustomStringConvertibleP", "jobPickupAddress"]
+- !private ["s23CustomStringConvertibleP", "jobPickupLat"]
+- !private ["s23CustomStringConvertibleP", "jobPickupLng"]
+- !private ["s23CustomStringConvertibleP", "jobStatus"]
+- !private ["s23CustomStringConvertibleP", "jobType"]
+- !private ["s23CustomStringConvertibleP", "licenseNumber"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "userID"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- !private ["SE", "subscript"]
+- ["SQ", ""]
+- !private ["SQ", "fleetID"]
+- !private ["SQ", "fleetImage"]
+- !private ["SQ", "fleetLatitude"]
+- !private ["SQ", "fleetName"]
+- !private ["SQ", "fleetPhone"]
+- !private ["SQ", "fleetStatus"]
+- !private ["SQ", "fleetThumbImage"]
+- !private ["SQ", "fleetlongitude"]
+- !private ["SQ", "init"]
+- !private ["SQ", "jobAddress"]
+- !private ["SQ", "jobHash"]
+- !private ["SQ", "jobId"]
+- !private ["SQ", "jobLat"]
+- !private ["SQ", "jobLng"]
+- !private ["SQ", "jobPickupAddress"]
+- !private ["SQ", "jobPickupLat"]
+- !private ["SQ", "jobPickupLng"]
+- !private ["SQ", "jobStatus"]
+- !private ["SQ", "jobType"]
+- !private ["SQ", "licenseNumber"]
+- !private ["SQ", "print"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "userID"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["SH", ""]
+- !private ["SH", "fleetID"]
+- !private ["SH", "fleetImage"]
+- !private ["SH", "fleetLatitude"]
+- !private ["SH", "fleetName"]
+- !private ["SH", "fleetPhone"]
+- !private ["SH", "fleetStatus"]
+- !private ["SH", "fleetThumbImage"]
+- !private ["SH", "fleetlongitude"]
+- !private ["SH", "init"]
+- !private ["SH", "jobAddress"]
+- !private ["SH", "jobHash"]
+- !private ["SH", "jobId"]
+- !private ["SH", "jobLat"]
+- !private ["SH", "jobLng"]
+- !private ["SH", "jobPickupAddress"]
+- !private ["SH", "jobPickupLat"]
+- !private ["SH", "jobPickupLng"]
+- !private ["SH", "jobStatus"]
+- !private ["SH", "jobType"]
+- !private ["SH", "licenseNumber"]
+- !private ["SH", "print"]
+- !private ["SH", "subscript"]
+- !private ["SH", "userID"]
+- !private ["13TookanTracker4JobsC", "NSNumber"]
+- ["13TookanTracker4JobsC", "String"]
+- ["13TookanTracker4JobsC", "deinit"]
+- ["13TookanTracker4JobsC", "fleetID"]
+- ["13TookanTracker4JobsC", "fleetImage"]
+- ["13TookanTracker4JobsC", "fleetLatitude"]
+- ["13TookanTracker4JobsC", "fleetName"]
+- ["13TookanTracker4JobsC", "fleetPhone"]
+- ["13TookanTracker4JobsC", "fleetStatus"]
+- ["13TookanTracker4JobsC", "fleetThumbImage"]
+- ["13TookanTracker4JobsC", "fleetlongitude"]
+- ["13TookanTracker4JobsC", "init"]
+- ["13TookanTracker4JobsC", "jobAddress"]
+- ["13TookanTracker4JobsC", "jobHash"]
+- ["13TookanTracker4JobsC", "jobId"]
+- ["13TookanTracker4JobsC", "jobLat"]
+- ["13TookanTracker4JobsC", "jobLng"]
+- ["13TookanTracker4JobsC", "jobPickupAddress"]
+- ["13TookanTracker4JobsC", "jobPickupLat"]
+- ["13TookanTracker4JobsC", "jobPickupLng"]
+- ["13TookanTracker4JobsC", "jobStatus"]
+- ["13TookanTracker4JobsC", "jobType"]
+- ["13TookanTracker4JobsC", "licenseNumber"]
+- !private ["13TookanTracker4JobsC", "print"]
+- ["13TookanTracker4JobsC", "userID"]
+- !private ["So8NSObjectC", "NSNumber"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "fleetID"]
+- ["So8NSObjectC", "fleetImage"]
+- ["So8NSObjectC", "fleetLatitude"]
+- ["So8NSObjectC", "fleetName"]
+- ["So8NSObjectC", "fleetPhone"]
+- ["So8NSObjectC", "fleetStatus"]
+- ["So8NSObjectC", "fleetThumbImage"]
+- ["So8NSObjectC", "fleetlongitude"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "jobAddress"]
+- ["So8NSObjectC", "jobHash"]
+- ["So8NSObjectC", "jobId"]
+- ["So8NSObjectC", "jobLat"]
+- ["So8NSObjectC", "jobLng"]
+- ["So8NSObjectC", "jobPickupAddress"]
+- ["So8NSObjectC", "jobPickupLat"]
+- ["So8NSObjectC", "jobPickupLng"]
+- ["So8NSObjectC", "jobStatus"]
+- ["So8NSObjectC", "jobType"]
+- ["So8NSObjectC", "licenseNumber"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "userID"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "fleetID"]
+- !private ["So8NSObjectP", "fleetImage"]
+- !private ["So8NSObjectP", "fleetLatitude"]
+- !private ["So8NSObjectP", "fleetName"]
+- !private ["So8NSObjectP", "fleetPhone"]
+- !private ["So8NSObjectP", "fleetStatus"]
+- !private ["So8NSObjectP", "fleetThumbImage"]
+- !private ["So8NSObjectP", "fleetlongitude"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "jobAddress"]
+- !private ["So8NSObjectP", "jobHash"]
+- !private ["So8NSObjectP", "jobId"]
+- !private ["So8NSObjectP", "jobLat"]
+- !private ["So8NSObjectP", "jobLng"]
+- !private ["So8NSObjectP", "jobPickupAddress"]
+- !private ["So8NSObjectP", "jobPickupLat"]
+- !private ["So8NSObjectP", "jobPickupLng"]
+- !private ["So8NSObjectP", "jobStatus"]
+- !private ["So8NSObjectP", "jobType"]
+- !private ["So8NSObjectP", "licenseNumber"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "userID"]
+- !private ["ST", "subscript"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fleetID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fleetImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fleetLatitude"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fleetName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fleetPhone"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fleetStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fleetThumbImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fleetlongitude"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jobAddress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jobHash"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jobId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jobLat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jobLng"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jobPickupAddress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jobPickupLat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jobPickupLng"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jobStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jobType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "licenseNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userID"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "s7CVarArgP"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- "13TookanTracker4JobsC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/i386.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/i386.swiftmodule"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/CocoaAsyncSocket.framework/Headers/CocoaAsyncSocket-umbrella.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSPanorama.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSPanoramaCamera.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GMSPlacePhotoMetadata.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GMSPlaceLikelihood.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GMSPlace.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GMSUserAddedPlace.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSPanoramaService.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GMSAutocompleteTableDataSource.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GMSAutocompleteBoundsMode.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSCircle.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSMapStyle.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSPolyline.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMapsBase.framework/Headers/GoogleMapsBase.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSCameraUpdate.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSIndoorBuilding.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSPath.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSMutablePath.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSPanoramaLink.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSIndoorLevel.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSPolygon.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSMapView+Animation.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSOrientation.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSProjection.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GMSAutocompletePrediction.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSCameraPosition.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSGeocoder.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GMSAutocompleteFetcher.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/TookanTracker.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSMarker.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GMSAutocompleteViewController.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GMSAutocompleteResultsViewController.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GMSAutocompleteFilter.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSCALayer.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSPanoramaLayer.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSURLTileLayer.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSTileLayer.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSSyncTileLayer.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSMapLayer.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSMarkerLayer.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMapsBase.framework/Headers/GMSCoordinateBounds.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GooglePlaces.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSServices.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GMSPlaceTypes.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSUISettings.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSGeometryUtils.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMapsBase.framework/Headers/GMSDeprecationMacros.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMapsBase.framework/Headers/GMSCompatabilityMacros.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSCoordinateBounds+GoogleMaps.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GoogleMaps.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GMSPlacesErrors.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSAddress.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/CocoaAsyncSocket.framework/Headers/AsyncSocket.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/CocoaAsyncSocket.framework/Headers/GCDAsyncSocket.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/CocoaAsyncSocket.framework/Headers/AsyncUdpSocket.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/CocoaAsyncSocket.framework/Headers/GCDAsyncUdpSocket.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GMSPlacesClient.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GMSAutocompleteMatchFragment.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GMSAddressComponent.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GMSPlacePhotoMetadataList.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Headers/GMSPlaceLikelihoodList.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSPanoramaView.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSMapView.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSIndoorDisplay.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSOverlay.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Headers/GMSGroundOverlay.h"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/build/TookanTracker.build/Debug-iphonesimulator/TookanTracker.build/unextended-module.modulemap"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMapsBase.framework/Modules/module.modulemap"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GooglePlaces.framework/Modules/module.modulemap"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/GoogleMaps.framework/Modules/module.modulemap"
+- "/Users/mukulkansal/Documents/git/tracking-sdk-ios/TookanTracker/TookanTracker/SDK/CocoaAsyncSocket.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7d9babb82fe49864afd45325e63a1314"
