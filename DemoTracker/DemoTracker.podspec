@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name         = 'TookanTracker'
+s.name         = 'DemoTracker'
 s.version      = '0.0.1'
 s.summary      = 'Now add Tookan Tracker in app for quick tracking.'
 s.homepage     = 'https://github.com/mukul-kansal/test.git'
